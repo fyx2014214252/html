@@ -1,0 +1,347 @@
+/**********全体开始**********/
+*{
+	margin: 0;
+	padding: 0;
+}
+ol,ul{
+	list-style: none;
+}
+a{
+	text-decoration:none; 
+}
+img{
+	border: 0;
+}
+
+/**********全体结束**********/
+/*********header开始*********/
+#header{
+	/*background: red;*/
+	height: 76px;
+	/*width: 1583px;
+*/}
+#header .wrapper{
+	height: 76px;
+}
+.wrapper{
+/*	background: gray;
+*/	width: 1120px;
+	margin: 0 auto;
+}
+#logo{
+	margin-top:  10px;
+	float: left;
+	line-height: 76px;
+}
+#nav{
+	float: right;
+	margin-top: 20px;
+}
+#nav li{
+	float: left;
+	width: 90px;
+	height: 36px;
+}
+#nav a{
+	width: 90px;
+	height: 36px;
+	display: block;
+	text-align: center;
+	line-height: 36px;
+	color: #000;
+}
+#nav a:hover{
+	color: red;
+}
+/*********header结束*******
+/*********baner开始*********/
+#banner{
+ 	height: 453px;
+ 	background: url(../img/banner01.jpg) no-repeat 50% 50%;
+}
+/*********baner结束*********/
+/*********news开始*********/
+#news{
+	/*float: left;*/
+	overflow: hidden;
+}
+#news .wrapper{
+	height: 195px;
+	margin-top: 20px;
+}
+#news-left{
+	width: 660px;
+	height: 195px;
+	/*background: red;*/
+	float: left;
+}
+#left-head{
+	height:35px;
+	/*background: green;*/
+	display: block;
+}
+#left-foot{
+	height: 160px;
+}
+#left-head a{
+	float: right;
+	display: block;
+	line-height:30px;
+	width: 90px;
+	height: 30px;
+	/*background: yellow;*/
+}
+#left-head a:hover{
+	background: red;
+	border-radius: 20px;
+	width: 90px;
+	height: 30px;
+}
+#info{
+	
+	
+}
+#info li{
+	margin-top: 20px;
+	height: 18px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	padding-left: 15px;
+	background: url(../img/home-bg1.png) no-repeat scroll left center;
+}
+#news-right{
+	/*background: yellow;*/
+	height: 195px;
+	width: 400px;
+	float:right;
+
+}
+#right-head{
+	height:35px;
+
+}
+#right-head a{
+	float: right;
+}
+#right-head a:hover{
+	background: red;
+	border-radius: 20px;
+}
+#mation li{
+	margin-top: 20px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	font-size: 12px;
+	padding-left: 15px;
+	background: url(../img/home-bg1.png) no-repeat scroll left center;
+}
+#right-foot{
+	height: 130px;
+	width: 400px;
+	/*margin-top: 20px;*/
+	/*margin: 0 auto;*/
+	border: 1px dotted;
+}
+/*********news结束*********/
+/*********coursers开始*********/
+#coursers{
+	height: 530px;
+	background: rgb(245,245,245);
+	overflow: hidden;
+}
+#coursers .wrapper{
+	height: 530px;
+}
+#coursers h1{
+    margin-top: 20px;
+    text-align: center;
+	font: 12px/1.8 Tahoma,Verdana,Arial,宋体;
+}
+#coursers h2{
+    margin-top: 20px;
+    text-align: center;
+	font: 12px/1.8 Tahoma,Verdana,Arial,宋体;
+}
+#coursers li{
+	width: 220px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 120px;
+}
+#coursers a{
+	display: block;
+	margin: 0 auto;
+}
+/*********coursers结束*********/
+/*********slogan结束*********/
+#slogan{
+	height: 350px;
+	background: rgb(147,196,125);
+}
+#slogan .wrapper{
+	height: 350px;
+	overflow: hidden;
+}
+#heade{
+	height: 90px;
+	/*background: yellow;*/
+}
+#heade-left{
+	width: 50%;
+	height: 90px;
+	/*background: green;*/
+	float: left;
+	overflow: hidden;
+}
+#heade-left-1{
+	width: 20%;
+	height: 45px;
+	background: yellow;
+	float: right;
+	margin-top: 45px;
+}
+#heade-left-1 h3{
+	text-align: center;
+	line-height: 45px;
+}
+#heade-right{
+	width: 50%;
+	height: 90px;
+	/*background: green;*/
+	float: right;
+	overflow: hidden;
+}
+#heade-right-2{
+	width: 20%;
+	height: 45px;
+	background: #fff;
+	float: left;
+	margin-top: 45px;
+}
+#heade-right-2 h4{
+	text-align: center;
+	line-height: 45px;
+}
+h5{
+	text-align: center;
+	font-size: 1cm;
+	margin-top: 10px;
+}
+h6{
+	text-align: center;
+	/*font-size: 10cm;*/
+	margin-top: 10px;
+}
+#know{
+	width: 525px;
+	height: 80px;
+	/*background: yellow;*/
+	margin: 0 auto;
+	padding-top: 15px;
+	border-top: 1px solid #fff;
+	font: 12px/1.8 Tahoma,Verdana,Arial,宋体;
+}
+#slogan .wrapper a{
+	width: 102px;
+	height: 27px;
+	display: block;
+	margin: 0 auto;
+	line-height: 27px;
+	text-align: center;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	margin-top: 20px;
+
+}
+#slogan .wrapper a:hover{
+	background: #fff;
+	border-radius: 10px;
+	border: 1px solid blue;
+}	
+/*********slogan结束*********/
+/*********question开始*********/
+#question{
+	background: #FEE157;
+	height: 394px;
+}
+#question .wrapper{
+	height: 394px;
+	overflow: hidden;
+}
+#question-left{
+	height:264px;
+	width: 675px;
+	/*background: green;*/
+	margin-top: 30px;
+	float: left;
+	position: relative;
+}
+#question-right{
+	height:340px;
+	width: 335px;
+	/*background: green;*/
+	margin-top: 30px;
+	float: right;
+}
+#question-left .question-title{
+	
+	font-size:18px;
+}
+#question-left .question-title a{
+	font-size:18px;
+	display: block;
+	width: 100px;
+	height: 25px;
+	float: right;
+}
+#question-left .question-title a:hover{
+	background: #fff;
+	border-radius: 10px;
+}
+#question-content{
+	width: 675px;
+	height: 212px;
+ 	border: 1px dotted;
+ 	/*margin-top: 20px;*/
+ 	/*padding-top: 20px;*/
+}
+#question-content li{
+	line-height: 34px;
+	margin-top: 7px;
+	width: 638px;
+	height: 34px;
+	padding-left: 15px;
+}
+#question-left ul{
+	margin-top: 20px;
+	/*padding: 20px;*/
+}
+#question-content a{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	display: block;
+	width: 610px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 15px;
+	padding-right: -15px;
+	border-bottom: 1px dotted;
+	padding-bottom: 10px;
+	background: url(../img/Problem-bg.png) no-repeat left center;
+}
+#question-right h1{
+	font-size: 20px;
+	height:32px;
+	text-align: center;
+	line-height: 32px;
+}
+#right-left{
+	height: 308px;
+	border: 1px dotted;
+}
+/*********slogan结束*********/
+
